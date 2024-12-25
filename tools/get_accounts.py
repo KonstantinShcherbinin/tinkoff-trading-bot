@@ -1,5 +1,5 @@
 from grpc import StatusCode
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 from tinkoff.invest import Client, RequestError, AccountType
 
 
